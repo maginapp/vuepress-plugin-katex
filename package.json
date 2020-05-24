@@ -1,0 +1,34 @@
+{
+  "name": "@maginapp/vuepress-plugin-katex",
+  "version": "1.0.0",
+  "description": "KateX plugin for Vuepress",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maginapp/vuepress-plugin-katex.git"
+  },
+  "keywords": [
+    "maginapp",
+    "vuepress",
+    "katex",
+    "markdown"
+  ],
+  "author": {
+    "name": "maginapp",
+    "email": "1075433743@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maginapp/vuepress-plugin-katex/issues"
+  },
+  "homepage": "https://github.com/maginapp/vuepress-plugin-katex#readme",
+  "dependencies": {
+    "katex": "^0.11.1",
+    "markdown-it-texmath": "^0.6.7"
+  },
+  "scripts": {
+    "prepare": "run-s copy:*",
+    "copy:katex": "cp -r ./node_modules/katex/dist/fonts ./css/",
+    "copy:textmath": "cp ./node_modules/markdown-it-texmath/css/texmath.css ./css/texmath.css"
+  }
+}
