@@ -4,7 +4,6 @@ const path = require("path");
 
 module.exports = (options = {}, context) => ({
   chainMarkdown(config) {
-    console.log(options)
     config
       .plugin("katex")
       .use(texmath, [Object.assign({ delimiters: "dollars" }, options)])

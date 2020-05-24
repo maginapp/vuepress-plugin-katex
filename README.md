@@ -65,6 +65,3 @@ $$
 * [katex](https://github.com/KaTeX/KaTeX)
 * [markdown-it-texmath](https://github.com/goessner/markdown-it-texmath)
 
-## issue
-
-* Use relative path to get resources of css
