@@ -3,6 +3,12 @@ const texmath = require("markdown-it-texmath").use(katex);
 const path = require("path");
 
 module.exports = (options = {}, context) => ({
+  enhanceAppFiles: [
+    path.resolve(__dirname, 'enhanceAppFile.js')
+  ],
+
+  globalUIComponents: ['Eqn', 'Eq'],
+
   chainMarkdown(config) {
     config
       .plugin("katex")

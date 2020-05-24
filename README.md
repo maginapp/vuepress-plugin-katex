@@ -60,8 +60,18 @@ $$
 $$
 ```
 
+### vue components
+
+* `Eq.vue`: using for inline
+
+* `Eqn.vue`: using for block
+
 ## Projects Using `@maginapp/vuepress-plugin-katex`
 
 * [katex](https://github.com/KaTeX/KaTeX)
 * [markdown-it-texmath](https://github.com/goessner/markdown-it-texmath)
 
+## records
+
+* v1.0.5 初试版本
+* v1.0.6 添加Eq Eqn 初始组件
