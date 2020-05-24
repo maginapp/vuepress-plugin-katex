@@ -25,10 +25,5 @@
   "dependencies": {
     "katex": "^0.11.1",
     "markdown-it-texmath": "^0.6.7"
-  },
-  "scripts": {
-    "prepare": "run-s copy:*",
-    "copy:katex": "cp -r ./node_modules/katex/dist/fonts ./css/",
-    "copy:textmath": "cp ./node_modules/markdown-it-texmath/css/texmath.css ./css/texmath.css"
   }
 }

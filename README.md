@@ -4,8 +4,8 @@ Katex plugin for VuePress
 ## Installation
 
 ```shell
-$ yarn add -D @maginapp/vuepress-plugin-katex
-$ npm install -D @maginapp/vuepress-plugin-katex
+yarn add -D @maginapp/vuepress-plugin-katex
+# or npm install -D @maginapp/vuepress-plugin-katex
 ```
 
 ## Usage
