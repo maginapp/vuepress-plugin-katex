@@ -75,3 +75,4 @@ $$
 
 * v1.0.5 初试版本
 * v1.0.6 添加Eq Eqn 初始组件
+* v1.0.7 修复display + equation number 模式下Eqn组件不居中问题
