@@ -1,15 +1,15 @@
 /* style for html inside of browsers */
 .katex { font-size: 1em !important; } /* align KaTeX font-size to surrounding text */
 
-eq { display: inline-block; }
-eqn { display: block}
+eq, .vuepress-eq { display: inline-block; }
+eqn, .vuepress-eqn { display: block}
 section.eqno {
     display: flex;
     flex-direction: row;
     align-content: space-between;
     align-items: center;
 }
-section.eqno > eqn {
+section.eqno > .vuepress-eqn, section.eqno > eqn {
     width: 100%;
     margin-left: 3em;
 }

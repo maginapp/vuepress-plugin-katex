@@ -1,5 +1,5 @@
 <template>
-  <span><slot></slot></span>
+  <span class="vuepress-eq"><slot></slot></span>
 </template>
 
 <script>
