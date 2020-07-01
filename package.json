@@ -22,6 +22,9 @@
     "url": "https://github.com/maginapp/vuepress-plugin-katex/issues"
   },
   "homepage": "https://github.com/maginapp/vuepress-plugin-katex#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "katex": "^0.11.1",
     "markdown-it-texmath": "^0.6.7"
