@@ -77,3 +77,4 @@ $$
 * v1.0.6 add component:`Eq`,`Eqn` / 添加 Eq Eqn 初始组件
 * v1.0.7 fix: `Eqn` dispaly center /  修复display + equation number 模式下Eqn组件不居中问题
 * v1.0.8 fix: Vue automatically removes spaces from templates / 修复vue自动去除模板中空格问题
+* v1.0.9 style: add custom.css / 添加自定义样式文件
