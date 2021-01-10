@@ -1,0 +1,7 @@
+.vuepress-eq { display: inline-block; }
+.vuepress-eqn { display: block}
+
+section.eqno > .vuepress-eqn {
+  width: 100%;
+  margin-left: 3em;
+}
