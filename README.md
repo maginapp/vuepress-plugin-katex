@@ -73,6 +73,7 @@ $$
 
 ## records
 
-* v1.0.5 初试版本
-* v1.0.6 添加Eq Eqn 初始组件
-* v1.0.7 修复display + equation number 模式下Eqn组件不居中问题
+* v1.0.5 init version / 初始版本
+* v1.0.6 add component:`Eq`,`Eqn` / 添加 Eq Eqn 初始组件
+* v1.0.7 fix: `Eqn` dispaly center /  修复display + equation number 模式下Eqn组件不居中问题
+* v1.0.8 fix: Vue automatically removes spaces from templates / 修复vue自动去除模板中空格问题
