@@ -78,3 +78,4 @@ $$
 * v1.0.7 fix: `Eqn` dispaly center /  修复display + equation number 模式下Eqn组件不居中问题
 * v1.0.8 fix: Vue automatically removes spaces from templates / 修复vue自动去除模板中空格问题
 * v1.0.9 style: add custom.css / 添加自定义样式文件
+* v1.0.10 fix: delete globalUIComponents / 修复globalUIComponents 导致的底部样式问题

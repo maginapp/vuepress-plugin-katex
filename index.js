@@ -21,7 +21,7 @@ module.exports = (options = {}, context) => ({
     path.resolve(__dirname, 'enhanceAppFile.js')
   ],
 
-  globalUIComponents: ['Eqn', 'Eq'],
+  // globalUIComponents: ['Eqn', 'Eq'],
 
   chainMarkdown(config) {
     config
