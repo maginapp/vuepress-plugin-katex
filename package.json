@@ -1,6 +1,6 @@
 {
   "name": "@maginapp/vuepress-plugin-katex",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "KateX plugin for Vuepress",
   "main": "index.js",
   "repository": {
