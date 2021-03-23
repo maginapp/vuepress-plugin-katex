@@ -15,12 +15,11 @@ yarn add -D @maginapp/vuepress-plugin-katex
 ```js
 module.exports = {
     // ...
-    plugins: [
-        '@maginapp/vuepress-plugin-katex',
-        {
+    plugins: {
+        '@maginapp/katex': {
           delimiters: 'dollars'
         }
-    ]
+    }
     // ...
 }
 ```
