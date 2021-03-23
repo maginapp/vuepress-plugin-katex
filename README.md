@@ -19,9 +19,24 @@ module.exports = {
         '@maginapp/katex': {
           delimiters: 'dollars'
         }
-    }
+    },
+    // or
+    plugins: {
+        '@maginapp/vuepress-plugin-katex': {
+          delimiters: 'dollars'
+        }
+    },
     // ...
 }
+
+// or
+
+module.exports = [
+    ['@maginapp/vuepress-plugin-katex', { delimiters: 'dollars' }],
+    // or
+    ['@maginapp/katex', { delimiters: 'dollars' }],
+]
+
 ```
 
 ### options
@@ -78,3 +93,4 @@ $$
 * v1.0.8 fix: Vue automatically removes spaces from templates / 修复vue自动去除模板中空格问题
 * v1.0.9 style: add custom.css / 添加自定义样式文件
 * v1.0.10 fix: delete globalUIComponents / 修复globalUIComponents 导致的底部样式问题
+* v1.0.11 fix: modify `README` usage / 修复 `README` 示例错误
