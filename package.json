@@ -26,8 +26,8 @@
     "access": "public"
   },
   "dependencies": {
-    "katex": "^0.11.1",
-    "markdown-it-texmath": "^0.6.7"
+    "katex": "^0.13.3",
+    "markdown-it-texmath": "^0.8.0"
   },
   "scripts": {    
     "prepare": "mkdir css & copy /Y .\\node_modules\\markdown-it-texmath\\css\\texmath.css .\\css\\texmath.css & mkdir css\\fonts & copy /Y .\\node_modules\\katex\\dist\\fonts .\\css\\fonts & copy /Y .\\node_modules\\katex\\dist\\katex.min.css .\\css\\katex.min.css"
